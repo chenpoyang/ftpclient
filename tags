@@ -1,0 +1,264 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/local\/Trolltech\/Qt-4.8.0\/mkspecs\/common\/unix.conf \\$/;"	m
+DoubleClicked	ftpclientwindow.cpp	/^void FtpClientWindow::DoubleClicked(QListWidgetItem *item)$/;"	f	class:FtpClientWindow	signature:(QListWidgetItem *item)
+DoubleClicked	ftpclientwindow.h	/^    void DoubleClicked(QListWidgetItem *item);$/;"	p	class:FtpClientWindow	access:private	signature:(QListWidgetItem *item)
+FTPCLIENTWINDOW_H	ftpclientwindow.h	2;"	d
+FTPCLIENT_H	ftpclient.h	2;"	d
+FtpClientWindow	ftpclientwindow.cpp	/^FtpClientWindow::FtpClientWindow(QWidget *parent) :$/;"	f	class:FtpClientWindow	signature:(QWidget *parent)
+FtpClientWindow	ftpclientwindow.h	/^    explicit FtpClientWindow(QWidget *parent = 0);$/;"	p	class:FtpClientWindow	access:public	signature:(QWidget *parent = 0)
+FtpClientWindow	ftpclientwindow.h	/^class FtpClientWindow : public QDialog$/;"	c	inherits:QDialog
+FtpClientWindow	ui_ftpclientwindow.h	/^    class FtpClientWindow: public Ui_FtpClientWindow {};$/;"	c	namespace:Ui	inherits:Ui_FtpClientWindow
+FtpClientWindow::DoubleClicked	ftpclientwindow.cpp	/^void FtpClientWindow::DoubleClicked(QListWidgetItem *item)$/;"	f	class:FtpClientWindow	signature:(QListWidgetItem *item)
+FtpClientWindow::DoubleClicked	ftpclientwindow.h	/^    void DoubleClicked(QListWidgetItem *item);$/;"	p	class:FtpClientWindow	access:private	signature:(QListWidgetItem *item)
+FtpClientWindow::FtpClientWindow	ftpclientwindow.cpp	/^FtpClientWindow::FtpClientWindow(QWidget *parent) :$/;"	f	class:FtpClientWindow	signature:(QWidget *parent)
+FtpClientWindow::FtpClientWindow	ftpclientwindow.h	/^    explicit FtpClientWindow(QWidget *parent = 0);$/;"	p	class:FtpClientWindow	access:public	signature:(QWidget *parent = 0)
+FtpClientWindow::addToList	ftpclientwindow.cpp	/^void FtpClientWindow::addToList(const QUrlInfo &urlInfo)$/;"	f	class:FtpClientWindow	signature:(const QUrlInfo &urlInfo)
+FtpClientWindow::addToList	ftpclientwindow.h	/^    void addToList(const QUrlInfo &urlInfo);$/;"	p	class:FtpClientWindow	access:private	signature:(const QUrlInfo &urlInfo)
+FtpClientWindow::callDownload	ftpclientwindow.cpp	/^void FtpClientWindow::callDownload()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::callDownload	ftpclientwindow.h	/^    void callDownload();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::changeToParrent	ftpclientwindow.cpp	/^void FtpClientWindow::changeToParrent()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::changeToParrent	ftpclientwindow.h	/^	void changeToParrent();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::clearMemory	ftpclientwindow.cpp	/^void FtpClientWindow::clearMemory(QList<QListWidgetItem*> &listItemCtn)$/;"	f	class:FtpClientWindow	signature:(QList<QListWidgetItem*> &listItemCtn)
+FtpClientWindow::clearMemory	ftpclientwindow.h	/^	void clearMemory(QList<QListWidgetItem*> &listItemCtn);$/;"	p	class:FtpClientWindow	access:private	signature:(QList<QListWidgetItem*> &listItemCtn)
+FtpClientWindow::configWidget	ftpclientwindow.cpp	/^void FtpClientWindow::configWidget()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::configWidget	ftpclientwindow.h	/^    void configWidget();    \/* 初始化控件的属性 *\/$/;"	p	class:FtpClientWindow	access:public	signature:()
+FtpClientWindow::downLoadFile	ftpclientwindow.cpp	/^void FtpClientWindow::downLoadFile(const QString &filename)$/;"	f	class:FtpClientWindow	signature:(const QString &filename)
+FtpClientWindow::downLoadFile	ftpclientwindow.h	/^    void downLoadFile(const QString &filename);$/;"	p	class:FtpClientWindow	access:private	signature:(const QString &filename)
+FtpClientWindow::ftpConnect	ftpclientwindow.cpp	/^void FtpClientWindow::ftpConnect()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::ftpConnect	ftpclientwindow.h	/^    void ftpConnect();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::ftpHostChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpHostChanged()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::ftpHostChanged	ftpclientwindow.h	/^    void ftpHostChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::ftpPortChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpPortChanged()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::ftpPortChanged	ftpclientwindow.h	/^    void ftpPortChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::ftpPwdChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpPwdChanged()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::ftpPwdChanged	ftpclientwindow.h	/^    void ftpPwdChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::ftpUserChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpUserChanged()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::ftpUserChanged	ftpclientwindow.h	/^    void ftpUserChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::ftpclient	ftpclientwindow.h	/^    Ftpclient ftpclient;$/;"	m	class:FtpClientWindow	access:private
+FtpClientWindow::getCurrentPath	ftpclientwindow.h	/^	QString getCurrentPath() const;$/;"	p	class:FtpClientWindow	access:public	signature:() const
+FtpClientWindow::initConnection	ftpclientwindow.cpp	/^void FtpClientWindow::initConnection()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::initConnection	ftpclientwindow.h	/^    void initConnection();$/;"	p	class:FtpClientWindow	access:public	signature:()
+FtpClientWindow::isDir	ftpclientwindow.cpp	/^bool FtpClientWindow::isDir(const QString &str) const$/;"	f	class:FtpClientWindow	signature:(const QString &str) const
+FtpClientWindow::isDir	ftpclientwindow.h	/^	bool isDir(const QString &str) const;$/;"	p	class:FtpClientWindow	access:public	signature:(const QString &str) const
+FtpClientWindow::listItemCtn	ftpclientwindow.h	/^	QList<QListWidgetItem*> listItemCtn;$/;"	m	class:FtpClientWindow	access:private
+FtpClientWindow::mainWindowQuit	ftpclientwindow.cpp	/^void FtpClientWindow::mainWindowQuit()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::mainWindowQuit	ftpclientwindow.h	/^    void mainWindowQuit();$/;"	p	class:FtpClientWindow	access:private	signature:()
+FtpClientWindow::switchDownloadBtn	ftpclientwindow.cpp	/^void FtpClientWindow::switchDownloadBtn(QListWidgetItem *item)$/;"	f	class:FtpClientWindow	signature:(QListWidgetItem *item)
+FtpClientWindow::switchDownloadBtn	ftpclientwindow.h	/^	void switchDownloadBtn(QListWidgetItem *item);$/;"	p	class:FtpClientWindow	access:private	signature:(QListWidgetItem *item)
+FtpClientWindow::ui	ftpclientwindow.h	/^    Ui::FtpClientWindow *ui;$/;"	m	class:FtpClientWindow	access:private
+FtpClientWindow::~FtpClientWindow	ftpclientwindow.cpp	/^FtpClientWindow::~FtpClientWindow()$/;"	f	class:FtpClientWindow	signature:()
+FtpClientWindow::~FtpClientWindow	ftpclientwindow.h	/^    ~FtpClientWindow();$/;"	p	class:FtpClientWindow	access:public	signature:()
+Ftpclient	ftpclient.cpp	/^Ftpclient::Ftpclient(QObject *parent) :$/;"	f	class:Ftpclient	signature:(QObject *parent)
+Ftpclient	ftpclient.h	/^    explicit Ftpclient(QObject *parent = 0);$/;"	p	class:Ftpclient	access:public	signature:(QObject *parent = 0)
+Ftpclient	ftpclient.h	/^class Ftpclient : public QObject$/;"	c	inherits:QObject
+Ftpclient::Ftpclient	ftpclient.cpp	/^Ftpclient::Ftpclient(QObject *parent) :$/;"	f	class:Ftpclient	signature:(QObject *parent)
+Ftpclient::Ftpclient	ftpclient.h	/^    explicit Ftpclient(QObject *parent = 0);$/;"	p	class:Ftpclient	access:public	signature:(QObject *parent = 0)
+Ftpclient::addToList	ftpclient.cpp	/^void Ftpclient::addToList(const QUrlInfo &urlInfo)$/;"	f	class:Ftpclient	signature:(const QUrlInfo &urlInfo)
+Ftpclient::addToList	ftpclient.h	/^    void addToList(const QUrlInfo &urlInfo);$/;"	p	class:Ftpclient	access:public	signature:(const QUrlInfo &urlInfo)
+Ftpclient::changeDir	ftpclient.cpp	/^void Ftpclient::changeDir(const QString &dir)$/;"	f	class:Ftpclient	signature:(const QString &dir)
+Ftpclient::changeDir	ftpclient.h	/^    void changeDir(const QString &dir);$/;"	p	class:Ftpclient	access:public	signature:(const QString &dir)
+Ftpclient::closeId	ftpclient.h	/^    int connectId, loginId, closeId;$/;"	m	class:Ftpclient	access:private
+Ftpclient::cmdAddToList	ftpclient.h	/^    void cmdAddToList(const QUrlInfo &urlInfo);$/;"	p	class:Ftpclient	access:public	signature:(const QUrlInfo &urlInfo)
+Ftpclient::connectId	ftpclient.h	/^    int connectId, loginId, closeId;$/;"	m	class:Ftpclient	access:private
+Ftpclient::connected	ftpclient.h	/^    bool connected;$/;"	m	class:Ftpclient	access:private
+Ftpclient::curPath	ftpclient.h	/^    QString curPath;$/;"	m	class:Ftpclient	access:private
+Ftpclient::currentPathChanged	ftpclient.h	/^	void currentPathChanged(const QString &path);$/;"	p	class:Ftpclient	access:public	signature:(const QString &path)
+Ftpclient::downloadFile	ftpclient.cpp	/^void Ftpclient::downloadFile(const QString &filename)$/;"	f	class:Ftpclient	signature:(const QString &filename)
+Ftpclient::downloadFile	ftpclient.h	/^	void downloadFile(const QString &filename);$/;"	p	class:Ftpclient	access:public	signature:(const QString &filename)
+Ftpclient::file	ftpclient.h	/^    QFile *file;$/;"	m	class:Ftpclient	access:private
+Ftpclient::ftp	ftpclient.h	/^    QFtp ftp;$/;"	m	class:Ftpclient	access:private
+Ftpclient::ftpConnect	ftpclient.cpp	/^void Ftpclient::ftpConnect()$/;"	f	class:Ftpclient	signature:()
+Ftpclient::ftpConnect	ftpclient.h	/^    void ftpConnect();$/;"	p	class:Ftpclient	access:public	signature:()
+Ftpclient::ftpLogout	ftpclient.cpp	/^void Ftpclient::ftpLogout()$/;"	f	class:Ftpclient	signature:()
+Ftpclient::ftpLogout	ftpclient.h	/^    void ftpLogout();$/;"	p	class:Ftpclient	access:public	signature:()
+Ftpclient::ftpcommandFinished	ftpclient.cpp	/^void Ftpclient::ftpcommandFinished(int id, bool error)$/;"	f	class:Ftpclient	signature:(int id, bool error)
+Ftpclient::ftpcommandFinished	ftpclient.h	/^    void ftpcommandFinished(int id, bool error);$/;"	p	class:Ftpclient	access:public	signature:(int id, bool error)
+Ftpclient::ftpcommandStarted	ftpclient.cpp	/^void Ftpclient::ftpcommandStarted(int id)$/;"	f	class:Ftpclient	signature:(int id)
+Ftpclient::ftpcommandStarted	ftpclient.h	/^    void ftpcommandStarted(int id);$/;"	p	class:Ftpclient	access:public	signature:(int id)
+Ftpclient::getCurrentPath	ftpclient.h	/^    QString getCurrentPath() const { return curPath; }$/;"	f	class:Ftpclient	access:public	signature:() const
+Ftpclient::getUrlStr	ftpclient.cpp	/^QString Ftpclient::getUrlStr(const QUrl &url)$/;"	f	class:Ftpclient	signature:(const QUrl &url)
+Ftpclient::getUrlStr	ftpclient.h	/^    QString getUrlStr(const QUrl &url);$/;"	p	class:Ftpclient	access:public	signature:(const QUrl &url)
+Ftpclient::initConnection	ftpclient.cpp	/^void Ftpclient::initConnection()$/;"	f	class:Ftpclient	signature:()
+Ftpclient::initConnection	ftpclient.h	/^    void initConnection();$/;"	p	class:Ftpclient	access:public	signature:()
+Ftpclient::isDir	ftpclient.cpp	/^bool Ftpclient::isDir(const QString &str) const$/;"	f	class:Ftpclient	signature:(const QString &str) const
+Ftpclient::isDir	ftpclient.h	/^	bool isDir(const QString &str) const;$/;"	p	class:Ftpclient	access:public	signature:(const QString &str) const
+Ftpclient::isDirHash	ftpclient.h	/^	QHash<QString, bool> isDirHash;$/;"	m	class:Ftpclient	access:private
+Ftpclient::loginId	ftpclient.h	/^    int connectId, loginId, closeId;$/;"	m	class:Ftpclient	access:private
+Ftpclient::progressDlg	ftpclient.h	/^    QProgressDialog *progressDlg;$/;"	m	class:Ftpclient	access:private
+Ftpclient::setCurrentPath	ftpclient.cpp	/^void Ftpclient::setCurrentPath(QString &path)$/;"	f	class:Ftpclient	signature:(QString &path)
+Ftpclient::setCurrentPath	ftpclient.h	/^    void setCurrentPath(QString &path);$/;"	p	class:Ftpclient	access:public	signature:(QString &path)
+Ftpclient::setPwd	ftpclient.h	/^    void setPwd(const QString &pwd) { strPwd = pwd; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &pwd)
+Ftpclient::setServerName	ftpclient.h	/^    void setServerName(const QString &server) { strSrvName = server; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &server)
+Ftpclient::setServerPort	ftpclient.h	/^    void setServerPort(const QString &port) { strSrvPort = port; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &port)
+Ftpclient::setUserName	ftpclient.h	/^    void setUserName(const QString &userName) { strUser = userName; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &userName)
+Ftpclient::strPwd	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+Ftpclient::strSrvName	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+Ftpclient::strSrvPort	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+Ftpclient::strUser	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+Ftpclient::updateProgressBar	ftpclient.h	/^    void updateProgressBar(qint64 done, qint64 total);$/;"	p	class:Ftpclient	access:public	signature:(qint64 done, qint64 total)
+Ftpclient::url	ftpclient.h	/^    QUrl url;$/;"	m	class:Ftpclient	access:private
+Ftpclient::~Ftpclient	ftpclient.cpp	/^Ftpclient::~Ftpclient()$/;"	f	class:Ftpclient	signature:()
+Ftpclient::~Ftpclient	ftpclient.h	/^    virtual ~Ftpclient();$/;"	p	class:Ftpclient	access:public	signature:()
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/local\/Trolltech\/Qt-4.8.0\/mkspecs\/linux-g++ -I. -I\/usr\/local\/Trolltech\/Qt-4.8.0\/include\/QtCore -I\/usr\/local\/Trolltech\/Qt-4.8.0\/include\/QtNetwork -I\/usr\/local\/Trolltech\/Qt-4.8.0\/include\/QtGui -I\/usr\/local\/Trolltech\/Qt-4.8.0\/include -I. -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/usr\/local\/Trolltech\/Qt-4.8.0\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/Trolltech\/Qt-4.8.0\/lib -lQtGui -L\/usr\/local\/Trolltech\/Qt-4.8.0\/lib -L\/usr\/X11R6\/lib -lQtNetwork -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/Trolltech\/Qt-4.8.0\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = ftpclient$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = ftpclient$/;"	m
+UI_FTPCLIENTWINDOW_H	ui_ftpclientwindow.h	11;"	d
+Ui	ftpclientwindow.h	/^namespace Ui {$/;"	n
+Ui	ui_ftpclientwindow.h	/^namespace Ui {$/;"	n
+Ui::FtpClientWindow	ui_ftpclientwindow.h	/^    class FtpClientWindow: public Ui_FtpClientWindow {};$/;"	c	namespace:Ui	inherits:Ui_FtpClientWindow
+Ui_FtpClientWindow	ui_ftpclientwindow.h	/^class Ui_FtpClientWindow$/;"	c
+Ui_FtpClientWindow::downloadBtn	ui_ftpclientwindow.h	/^    QPushButton *downloadBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::exitBtn	ui_ftpclientwindow.h	/^    QPushButton *exitBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::ftpHostLB	ui_ftpclientwindow.h	/^    QLabel *ftpHostLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::ftpHostLE	ui_ftpclientwindow.h	/^    QLineEdit *ftpHostLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::ftpPortLB	ui_ftpclientwindow.h	/^    QLabel *ftpPortLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::ftpPortLE	ui_ftpclientwindow.h	/^    QLineEdit *ftpPortLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::gridLayout	ui_ftpclientwindow.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::horizontalLayout	ui_ftpclientwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::linkBtn	ui_ftpclientwindow.h	/^    QPushButton *linkBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::listWidget	ui_ftpclientwindow.h	/^    QListWidget *listWidget;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::passwordLB	ui_ftpclientwindow.h	/^    QLabel *passwordLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::passwordLE	ui_ftpclientwindow.h	/^    QLineEdit *passwordLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::retranslateUi	ui_ftpclientwindow.h	/^    void retranslateUi(QDialog *FtpClientWindow)$/;"	f	class:Ui_FtpClientWindow	access:public	signature:(QDialog *FtpClientWindow)
+Ui_FtpClientWindow::setupUi	ui_ftpclientwindow.h	/^    void setupUi(QDialog *FtpClientWindow)$/;"	f	class:Ui_FtpClientWindow	access:public	signature:(QDialog *FtpClientWindow)
+Ui_FtpClientWindow::upwardBtn	ui_ftpclientwindow.h	/^    QPushButton *upwardBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::usernameLB	ui_ftpclientwindow.h	/^    QLabel *usernameLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::usernameLE	ui_ftpclientwindow.h	/^    QLineEdit *usernameLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+Ui_FtpClientWindow::verticalLayout	ui_ftpclientwindow.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_FtpClientWindow	access:public
+addToList	ftpclient.cpp	/^void Ftpclient::addToList(const QUrlInfo &urlInfo)$/;"	f	class:Ftpclient	signature:(const QUrlInfo &urlInfo)
+addToList	ftpclient.h	/^    void addToList(const QUrlInfo &urlInfo);$/;"	p	class:Ftpclient	access:public	signature:(const QUrlInfo &urlInfo)
+addToList	ftpclientwindow.cpp	/^void FtpClientWindow::addToList(const QUrlInfo &urlInfo)$/;"	f	class:FtpClientWindow	signature:(const QUrlInfo &urlInfo)
+addToList	ftpclientwindow.h	/^    void addToList(const QUrlInfo &urlInfo);$/;"	p	class:FtpClientWindow	access:private	signature:(const QUrlInfo &urlInfo)
+callDownload	ftpclientwindow.cpp	/^void FtpClientWindow::callDownload()$/;"	f	class:FtpClientWindow	signature:()
+callDownload	ftpclientwindow.h	/^    void callDownload();$/;"	p	class:FtpClientWindow	access:private	signature:()
+changeDir	ftpclient.cpp	/^void Ftpclient::changeDir(const QString &dir)$/;"	f	class:Ftpclient	signature:(const QString &dir)
+changeDir	ftpclient.h	/^    void changeDir(const QString &dir);$/;"	p	class:Ftpclient	access:public	signature:(const QString &dir)
+changeToParrent	ftpclientwindow.cpp	/^void FtpClientWindow::changeToParrent()$/;"	f	class:FtpClientWindow	signature:()
+changeToParrent	ftpclientwindow.h	/^	void changeToParrent();$/;"	p	class:FtpClientWindow	access:private	signature:()
+clearMemory	ftpclientwindow.cpp	/^void FtpClientWindow::clearMemory(QList<QListWidgetItem*> &listItemCtn)$/;"	f	class:FtpClientWindow	signature:(QList<QListWidgetItem*> &listItemCtn)
+clearMemory	ftpclientwindow.h	/^	void clearMemory(QList<QListWidgetItem*> &listItemCtn);$/;"	p	class:FtpClientWindow	access:private	signature:(QList<QListWidgetItem*> &listItemCtn)
+closeId	ftpclient.h	/^    int connectId, loginId, closeId;$/;"	m	class:Ftpclient	access:private
+cmdAddToList	ftpclient.h	/^    void cmdAddToList(const QUrlInfo &urlInfo);$/;"	p	class:Ftpclient	access:public	signature:(const QUrlInfo &urlInfo)
+configWidget	ftpclientwindow.cpp	/^void FtpClientWindow::configWidget()$/;"	f	class:FtpClientWindow	signature:()
+configWidget	ftpclientwindow.h	/^    void configWidget();    \/* 初始化控件的属性 *\/$/;"	p	class:FtpClientWindow	access:public	signature:()
+connectId	ftpclient.h	/^    int connectId, loginId, closeId;$/;"	m	class:Ftpclient	access:private
+connected	ftpclient.h	/^    bool connected;$/;"	m	class:Ftpclient	access:private
+curPath	ftpclient.h	/^    QString curPath;$/;"	m	class:Ftpclient	access:private
+currentPathChanged	ftpclient.h	/^	void currentPathChanged(const QString &path);$/;"	p	class:Ftpclient	access:public	signature:(const QString &path)
+downLoadFile	ftpclientwindow.cpp	/^void FtpClientWindow::downLoadFile(const QString &filename)$/;"	f	class:FtpClientWindow	signature:(const QString &filename)
+downLoadFile	ftpclientwindow.h	/^    void downLoadFile(const QString &filename);$/;"	p	class:FtpClientWindow	access:private	signature:(const QString &filename)
+downloadBtn	ui_ftpclientwindow.h	/^    QPushButton *downloadBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+downloadFile	ftpclient.cpp	/^void Ftpclient::downloadFile(const QString &filename)$/;"	f	class:Ftpclient	signature:(const QString &filename)
+downloadFile	ftpclient.h	/^	void downloadFile(const QString &filename);$/;"	p	class:Ftpclient	access:public	signature:(const QString &filename)
+exitBtn	ui_ftpclientwindow.h	/^    QPushButton *exitBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+file	ftpclient.h	/^    QFile *file;$/;"	m	class:Ftpclient	access:private
+ftp	ftpclient.h	/^    QFtp ftp;$/;"	m	class:Ftpclient	access:private
+ftpConnect	ftpclient.cpp	/^void Ftpclient::ftpConnect()$/;"	f	class:Ftpclient	signature:()
+ftpConnect	ftpclient.h	/^    void ftpConnect();$/;"	p	class:Ftpclient	access:public	signature:()
+ftpConnect	ftpclientwindow.cpp	/^void FtpClientWindow::ftpConnect()$/;"	f	class:FtpClientWindow	signature:()
+ftpConnect	ftpclientwindow.h	/^    void ftpConnect();$/;"	p	class:FtpClientWindow	access:private	signature:()
+ftpHostChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpHostChanged()$/;"	f	class:FtpClientWindow	signature:()
+ftpHostChanged	ftpclientwindow.h	/^    void ftpHostChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+ftpHostLB	ui_ftpclientwindow.h	/^    QLabel *ftpHostLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+ftpHostLE	ui_ftpclientwindow.h	/^    QLineEdit *ftpHostLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+ftpLogout	ftpclient.cpp	/^void Ftpclient::ftpLogout()$/;"	f	class:Ftpclient	signature:()
+ftpLogout	ftpclient.h	/^    void ftpLogout();$/;"	p	class:Ftpclient	access:public	signature:()
+ftpPortChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpPortChanged()$/;"	f	class:FtpClientWindow	signature:()
+ftpPortChanged	ftpclientwindow.h	/^    void ftpPortChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+ftpPortLB	ui_ftpclientwindow.h	/^    QLabel *ftpPortLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+ftpPortLE	ui_ftpclientwindow.h	/^    QLineEdit *ftpPortLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+ftpPwdChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpPwdChanged()$/;"	f	class:FtpClientWindow	signature:()
+ftpPwdChanged	ftpclientwindow.h	/^    void ftpPwdChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+ftpUserChanged	ftpclientwindow.cpp	/^void FtpClientWindow::ftpUserChanged()$/;"	f	class:FtpClientWindow	signature:()
+ftpUserChanged	ftpclientwindow.h	/^    void ftpUserChanged();$/;"	p	class:FtpClientWindow	access:private	signature:()
+ftpclient	ftpclientwindow.h	/^    Ftpclient ftpclient;$/;"	m	class:FtpClientWindow	access:private
+ftpcommandFinished	ftpclient.cpp	/^void Ftpclient::ftpcommandFinished(int id, bool error)$/;"	f	class:Ftpclient	signature:(int id, bool error)
+ftpcommandFinished	ftpclient.h	/^    void ftpcommandFinished(int id, bool error);$/;"	p	class:Ftpclient	access:public	signature:(int id, bool error)
+ftpcommandStarted	ftpclient.cpp	/^void Ftpclient::ftpcommandStarted(int id)$/;"	f	class:Ftpclient	signature:(int id)
+ftpcommandStarted	ftpclient.h	/^    void ftpcommandStarted(int id);$/;"	p	class:Ftpclient	access:public	signature:(int id)
+getCurrentPath	ftpclient.h	/^    QString getCurrentPath() const { return curPath; }$/;"	f	class:Ftpclient	access:public	signature:() const
+getCurrentPath	ftpclientwindow.h	/^	QString getCurrentPath() const;$/;"	p	class:FtpClientWindow	access:public	signature:() const
+getUrlStr	ftpclient.cpp	/^QString Ftpclient::getUrlStr(const QUrl &url)$/;"	f	class:Ftpclient	signature:(const QUrl &url)
+getUrlStr	ftpclient.h	/^    QString getUrlStr(const QUrl &url);$/;"	p	class:Ftpclient	access:public	signature:(const QUrl &url)
+gridLayout	ui_ftpclientwindow.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_FtpClientWindow	access:public
+horizontalLayout	ui_ftpclientwindow.h	/^    QHBoxLayout *horizontalLayout;$/;"	m	class:Ui_FtpClientWindow	access:public
+initConnection	ftpclient.cpp	/^void Ftpclient::initConnection()$/;"	f	class:Ftpclient	signature:()
+initConnection	ftpclient.h	/^    void initConnection();$/;"	p	class:Ftpclient	access:public	signature:()
+initConnection	ftpclientwindow.cpp	/^void FtpClientWindow::initConnection()$/;"	f	class:FtpClientWindow	signature:()
+initConnection	ftpclientwindow.h	/^    void initConnection();$/;"	p	class:FtpClientWindow	access:public	signature:()
+isDir	ftpclient.cpp	/^bool Ftpclient::isDir(const QString &str) const$/;"	f	class:Ftpclient	signature:(const QString &str) const
+isDir	ftpclient.h	/^	bool isDir(const QString &str) const;$/;"	p	class:Ftpclient	access:public	signature:(const QString &str) const
+isDir	ftpclientwindow.cpp	/^bool FtpClientWindow::isDir(const QString &str) const$/;"	f	class:FtpClientWindow	signature:(const QString &str) const
+isDir	ftpclientwindow.h	/^	bool isDir(const QString &str) const;$/;"	p	class:FtpClientWindow	access:public	signature:(const QString &str) const
+isDirHash	ftpclient.h	/^	QHash<QString, bool> isDirHash;$/;"	m	class:Ftpclient	access:private
+linkBtn	ui_ftpclientwindow.h	/^    QPushButton *linkBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+listItemCtn	ftpclientwindow.h	/^	QList<QListWidgetItem*> listItemCtn;$/;"	m	class:FtpClientWindow	access:private
+listWidget	ui_ftpclientwindow.h	/^    QListWidget *listWidget;$/;"	m	class:Ui_FtpClientWindow	access:public
+loginId	ftpclient.h	/^    int connectId, loginId, closeId;$/;"	m	class:Ftpclient	access:private
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+mainWindowQuit	ftpclientwindow.cpp	/^void FtpClientWindow::mainWindowQuit()$/;"	f	class:FtpClientWindow	signature:()
+mainWindowQuit	ftpclientwindow.h	/^    void mainWindowQuit();$/;"	p	class:FtpClientWindow	access:private	signature:()
+passwordLB	ui_ftpclientwindow.h	/^    QLabel *passwordLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+passwordLE	ui_ftpclientwindow.h	/^    QLineEdit *passwordLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+progressDlg	ftpclient.h	/^    QProgressDialog *progressDlg;$/;"	m	class:Ftpclient	access:private
+retranslateUi	ui_ftpclientwindow.h	/^    void retranslateUi(QDialog *FtpClientWindow)$/;"	f	class:Ui_FtpClientWindow	access:public	signature:(QDialog *FtpClientWindow)
+setCurrentPath	ftpclient.cpp	/^void Ftpclient::setCurrentPath(QString &path)$/;"	f	class:Ftpclient	signature:(QString &path)
+setCurrentPath	ftpclient.h	/^    void setCurrentPath(QString &path);$/;"	p	class:Ftpclient	access:public	signature:(QString &path)
+setPwd	ftpclient.h	/^    void setPwd(const QString &pwd) { strPwd = pwd; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &pwd)
+setServerName	ftpclient.h	/^    void setServerName(const QString &server) { strSrvName = server; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &server)
+setServerPort	ftpclient.h	/^    void setServerPort(const QString &port) { strSrvPort = port; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &port)
+setUserName	ftpclient.h	/^    void setUserName(const QString &userName) { strUser = userName; }$/;"	f	class:Ftpclient	access:public	signature:(const QString &userName)
+setupUi	ui_ftpclientwindow.h	/^    void setupUi(QDialog *FtpClientWindow)$/;"	f	class:Ui_FtpClientWindow	access:public	signature:(QDialog *FtpClientWindow)
+strPwd	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+strSrvName	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+strSrvPort	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+strUser	ftpclient.h	/^    QString strSrvName, strSrvPort, strUser, strPwd;$/;"	m	class:Ftpclient	access:private
+switchDownloadBtn	ftpclientwindow.cpp	/^void FtpClientWindow::switchDownloadBtn(QListWidgetItem *item)$/;"	f	class:FtpClientWindow	signature:(QListWidgetItem *item)
+switchDownloadBtn	ftpclientwindow.h	/^	void switchDownloadBtn(QListWidgetItem *item);$/;"	p	class:FtpClientWindow	access:private	signature:(QListWidgetItem *item)
+ui	ftpclientwindow.h	/^    Ui::FtpClientWindow *ui;$/;"	m	class:FtpClientWindow	access:private
+updateProgressBar	ftpclient.h	/^    void updateProgressBar(qint64 done, qint64 total);$/;"	p	class:Ftpclient	access:public	signature:(qint64 done, qint64 total)
+upwardBtn	ui_ftpclientwindow.h	/^    QPushButton *upwardBtn;$/;"	m	class:Ui_FtpClientWindow	access:public
+url	ftpclient.h	/^    QUrl url;$/;"	m	class:Ftpclient	access:private
+usernameLB	ui_ftpclientwindow.h	/^    QLabel *usernameLB;$/;"	m	class:Ui_FtpClientWindow	access:public
+usernameLE	ui_ftpclientwindow.h	/^    QLineEdit *usernameLE;$/;"	m	class:Ui_FtpClientWindow	access:public
+verticalLayout	ui_ftpclientwindow.h	/^    QVBoxLayout *verticalLayout;$/;"	m	class:Ui_FtpClientWindow	access:public
+~FtpClientWindow	ftpclientwindow.cpp	/^FtpClientWindow::~FtpClientWindow()$/;"	f	class:FtpClientWindow	signature:()
+~FtpClientWindow	ftpclientwindow.h	/^    ~FtpClientWindow();$/;"	p	class:FtpClientWindow	access:public	signature:()
+~Ftpclient	ftpclient.cpp	/^Ftpclient::~Ftpclient()$/;"	f	class:Ftpclient	signature:()
+~Ftpclient	ftpclient.h	/^    virtual ~Ftpclient();$/;"	p	class:Ftpclient	access:public	signature:()
